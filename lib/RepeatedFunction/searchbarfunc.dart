@@ -94,6 +94,7 @@ class _searchbarfunState extends State<searchbarfun> {
                   },
                   decoration: InputDecoration(
                       suffixIcon: IconButton(
+                        key: Key('clearSearch'),
                         onPressed: () {
                           Fluttertoast.showToast(
                               webBgColor: "#000000",
